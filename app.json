@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "微光日记",
+    "slug": "mood-note",
+    "version": "0.1.7",
+    "orientation": "portrait",
+    "scheme": "moodnote",
+    "userInterfaceStyle": "light",
+    "jsEngine": "jsc",
+    "newArchEnabled": false,
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "versionCode": 17,
+      "package": "com.moodnote.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#fff8f7"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
